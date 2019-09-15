@@ -1,7 +1,7 @@
 SystemKit
 =========
 
-A macOS system library in Swift based off of
+A macOS system ~~library~~ package in Swift based off of
 [libtop](http://www.opensource.apple.com/source/top/top-100.1.2/libtop.c), from
 Apple's top implementation.
 
@@ -19,15 +19,24 @@ Apple's top implementation.
 
 ### Installation
 
+#### Swift Package Manager
+
+For [Swift Package Manager](https://swift.org/package-manager/) add the following package to your Package.swift file. Just Swift 3, 4 & 5 are supported:
+
+``` Swift
+.package(url: "https://github.com/MikeManzo/SystemKit", .branch("master")),
+```
+
 #### Carthage
 
 [Carthage](https://github.com/Carthage/Carthage) is a decentralized dependency manager that builds your dependencies and provides you with binary frameworks.
 
 You can install Carthage with [Homebrew](http://brew.sh) using the following command:
 
+```
     $ brew update
     $ brew install carthage
-
+```
 To integrate SystemKit into your Xcode project using Carhage, specify it in your Cartfile:
 
     github "beltex/SystemKit"
