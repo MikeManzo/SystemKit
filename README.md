@@ -1,9 +1,9 @@
 SystemKit
 =========
 
-A macOS system ~~library~~ package in Swift based off of
+A macOS system libraary in Swift based off of
 [libtop](http://www.opensource.apple.com/source/top/top-100.1.2/libtop.c), from
-Apple's top implementation.
+Apple's top implementation.  Forked from [The Original](https://github.com/beltex/SystemKit) and updated to swift 5.x with [Swift Package Manager](https://swift.org/package-manager/) support.
 
 - For an example usage of this library, see
   [dshb](https://github.com/beltex/dshb), a macOS system monitor in Swift
